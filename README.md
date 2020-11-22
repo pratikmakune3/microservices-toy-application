@@ -6,6 +6,6 @@ Most of the modules(even, Event Bus) are built from the scratch to understand th
 
 Event - Piece of information, data structure
 
-Event Bus - Receives events and publish them to listeners\
+Event Bus - Receives events and publish them to listeners.
 
 Event Bus in this application is built using Express, it is simple, super fast but it will not implement vast majority of features of normal Event Buses out there!
