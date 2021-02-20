@@ -19,6 +19,9 @@ app.post('/events', (req, res) => {
   console.log('Sending event to Query Service');
   axios.post('http://localhost:4002/events', event);
 
+  console.log('Sending event to Moderation Service');
+  axios.post('http://localhost:4003/events', event);
+
   res.send({ status: 'OK' });
 });
 
