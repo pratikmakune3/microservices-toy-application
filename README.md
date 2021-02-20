@@ -10,3 +10,9 @@ Event Bus - Receives events and publish/echos them to listeners.
 
 Event Bus is built using Express, it is simple, super fast but it will not implement vast majority of features of normal Event Buses out there!
 
+# Architecture
+![Architecture](/assets/IMG-0072.jpg)
+
+
+# Simulation of Loose coupling...
+![Simulation](/assets/IMG-0071.jpg)
